@@ -30,6 +30,7 @@ default_bundles=(
   vim-unimpaired
   yankring
 )
+
 full_path=`pwd`
 
 echo "Creating directories..."
@@ -58,10 +59,10 @@ echo "Symlinking default snippets..."
 for f in `ls $full_path/home/.vim/snippets_storage/`; do
   ln -sv $full_path/home/.vim/snippets_storage/$f $full_path/home/.vim/snippets/$f
 done
-# Make a hard copy of css for scss
+# Make an additional symlink of css for scss
 ln -sv $full_path/home/.vim/snippets_storage/css.snippets $full_path/home/.vim/snippets/scss.snippets
 
-echo ""
+echo "--------------------------------------------------"
 echo "*** Install Complete ***"
 echo "--------------------------------------------------"
 echo "Run the following command to symlink your castle:"
