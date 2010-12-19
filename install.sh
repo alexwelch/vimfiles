@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 echo -e "Setting up directories"
-mkdir bundle
-mkdir snippets
-mkdir tmp
-mkdir tmp/swap
-mkdir tmp/yankring
-mkdir spell
+mkdir home/bundle
+mkdir home/snippets
+mkdir home/tmp
+mkdir home/tmp/swap
+mkdir home/tmp/yankring
+mkdir home/spell
 echo -e "Setting up local vimrc"
 cp .vimrc.local.example home/.vimrc.local
 echo -e "Initializing submodules"
