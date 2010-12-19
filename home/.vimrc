@@ -74,11 +74,22 @@ let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
 let g:CommandTMaxHeight=20
 
-" Popup menu behavior and supertab
+" Popup menu behavior
 set completeopt=longest,menuone
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+" Override snipmate and set it's triggers to use control space
+let g:snippets_dir = $HOME.'/.vim/snippets/'
+ino <silent> <c-space> <c-r>=TriggerSnippet()<cr>
+snor <silent> <c-space> <esc>i<right><c-r>=TriggerSnippet()<cr>
+ino <silent> <s-c-space> <c-r>=BackwardsSnippet()<cr>
+snor <silent> <s-c-space> <esc>i<right><c-r>=BackwardsSnippet()<cr>
+
+" Re-enable the default mappings for super tab
 let g:SuperTabLongestHighlight=1
-let g:snippets_dir = $HOME.'.vim/snippets/'
+let g:SuperTabMappingForward = '<tab>'
+let g:SuperTabMappingBackward = '<s-tab>'
+let g:SuperTabMappingTabLiteral = '<c-tab>'
 
 " Key mapping
 " -----------------------------------------------------------------------------
@@ -113,8 +124,7 @@ map <silent> \ :silent nohlsearch<cr>
 map <F2> :NERDTreeToggle<cr>
 nnoremap <silent> <F3> :TlistToggle<cr>
 nnoremap <silent> <F4> :YRShow<cr>
-" <F5> in insert mode opens snippets for the filetype
-
+ino <silent> <F5> <c-r>=ShowAvailableSnips()<cr>
 " <F10>-<F12> is reserved for .vimrc.local
 
 " Bubble single lines (requires unimpaired.vim)
