@@ -7,9 +7,6 @@
 
 " User plugin configurations
 " -----------------------------------------------------------------------------
-" let g:acp_enableAtStartup=0
-" let g:gundo_disable=1
-" let g:LustyExplorerSuppressRubyWarning=1
 " let g:yankring_history_dir=$HOME.'/.vim/tmp/yankring/'
 " let g:MarkdownPreviewUserStyles=$HOME.'/path/to/user/styles/'
 " let g:RefreshRunningBrowserDefault = 'chrome'
@@ -19,8 +16,6 @@
 " User key mapping
 " -----------------------------------------------------------------------------
 " <F1>-<F9> are reserved for .vimrc
-" nnoremap <silent> <F10> :LustyJuggler<cr>
-" nnoremap <silent> <F11> :GundoToggle<cr>
 
 " User leader mapping
 " -----------------------------------------------------------------------------
@@ -46,7 +41,6 @@
 " User GUI specific settings (could be in .gvimrc.local)
 " -----------------------------------------------------------------------------
 " if has('gui_running')
-  " let g:gundo_disable=0
   " set guifont=MesloLGM:h12
   " if has('gui_macvim')
     " set transparency=5
