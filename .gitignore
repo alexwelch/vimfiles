@@ -1,0 +1,10 @@
+.DS_Store
+*.swp
+.VimballRecord
+.netrwhist
+.vimrc.local
+tmp/
+tags/
+tags
+bundle/
+snippets/
