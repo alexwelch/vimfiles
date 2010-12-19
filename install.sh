@@ -57,6 +57,8 @@ echo "Symlinking default snippets..."
 for f in `ls home/.vim/snippets_storage/`; do
   ln -s home/.vim/snippets_storage/$f home/.vim/snippets/$f
 done
+# Make a hard copy of css for scss
+ln -s home/.vim/snippets_storage/css.snippets home/.vim/snippets/scss.snippets
 
 echo ""
 echo "*** Install Complete ***"
