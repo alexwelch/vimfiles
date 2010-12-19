@@ -49,16 +49,16 @@ git submodule foreach git clean -f
 
 echo "Symlinking default bundles..."
 for i in "${default_bundles[@]}"; do
-  ln -s home/.vim/bundle_storage/$i home/.vim/bundle/$i
+  ln -s "home/.vim/bundle_storage/$i" "home/.vim/bundle/$i"
 done
 
 
 echo "Symlinking default snippets..."
 for f in `ls home/.vim/snippets_storage/`; do
-  ln -s home/.vim/snippets_storage/$f home/.vim/snippets/$f
+  ln -s "home/.vim/snippets_storage/$f" "home/.vim/snippets/$f"
 done
 # Make a hard copy of css for scss
-ln -s home/.vim/snippets_storage/css.snippets home/.vim/snippets/scss.snippets
+ln -s "home/.vim/snippets_storage/css.snippets" "home/.vim/snippets/scss.snippets"
 
 echo ""
 echo "*** Install Complete ***"
