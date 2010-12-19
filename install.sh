@@ -30,16 +30,17 @@ default_bundles=(
   vim-unimpaired
   yankring
 )
+full_path=`pwd`
 
 echo "Creating directories..."
-mkdir -p home/.vim/bundle
-mkdir -p home/.vim/snippets
-mkdir -p home/.vim/tmp/swap
-mkdir -p home/.vim/tmp/yankring
-mkdir -p home/.vim/spell
+mkdir -p $full_path/home/.vim/bundle
+mkdir -p $full_path/home/.vim/snippets
+mkdir -p $full_path/home/.vim/tmp/swap
+mkdir -p $full_path/home/.vim/tmp/yankring
+mkdir -p $full_path/home/.vim/spell
 
 echo "Setting up default vimrc.local..."
-cp templates/.vimrc.local.example home/.vimrc.local
+cp $full_path/templates/.vimrc.local.example $full_path/home/.vimrc.local
 
 echo "Initializing submodules..."
 git submodule init
@@ -49,21 +50,21 @@ git submodule foreach git clean -f
 
 echo "Symlinking default bundles..."
 for i in "${default_bundles[@]}"; do
-  ln -s "home/.vim/bundle_storage/$i" "home/.vim/bundle/$i"
+  ln -sv $full_path/home/.vim/bundle_storage/$i $full_path/home/.vim/bundle/$i
 done
 
 
 echo "Symlinking default snippets..."
-for f in `ls home/.vim/snippets_storage/`; do
-  ln -s "home/.vim/snippets_storage/$f" "home/.vim/snippets/$f"
+for f in `ls $full_path/home/.vim/snippets_storage/`; do
+  ln -sv $full_path/home/.vim/snippets_storage/$f $full_path/home/.vim/snippets/$f
 done
 # Make a hard copy of css for scss
-ln -s "home/.vim/snippets_storage/css.snippets" "home/.vim/snippets/scss.snippets"
+ln -sv $full_path/home/.vim/snippets_storage/css.snippets $full_path/home/.vim/snippets/scss.snippets
 
 echo ""
 echo "*** Install Complete ***"
 echo "--------------------------------------------------"
 echo "Run the following command to symlink your castle:"
-echo "homesick symlink name-of-your-castle"
+echo "homesick symlink ${PWD##*/}"
 echo "--------------------------------------------------"
 
