@@ -1,0 +1,138 @@
+[submodule "home/.vim/syntax_checkers/compilers/nodelint"]
+	path = home/.vim/syntax_checkers/compilers/nodelint
+	url = https://github.com/tav/nodelint.git
+[submodule "home/.vim/syntax_checkers/compilers/nodelint-config"]
+	path = home/.vim/syntax_checkers/compilers/nodelint-config
+	url = https://github.com/factorylabs/nodelint-config.git
+[submodule "home/.vim/bundle_storage/ack.vim"]
+	path = home/.vim/bundle_storage/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "home/.vim/bundle_storage/actionscript.vim"]
+	path = home/.vim/bundle_storage/actionscript.vim
+	url = https://github.com/vim-scripts/actionscript.vim--Leider.git
+[submodule "home/.vim/bundle_storage/applescript.vim"]
+	path = home/.vim/bundle_storage/applescript.vim
+	url = https://github.com/vim-scripts/applescript.vim.git
+[submodule "home/.vim/bundle_storage/argtextobj.vim"]
+	path = home/.vim/bundle_storage/argtextobj.vim
+	url = https://github.com/vim-scripts/argtextobj.vim.git
+[submodule "home/.vim/bundle_storage/autocomplpop.vim"]
+	path = home/.vim/bundle_storage/autocomplpop.vim
+	url = https://github.com/vim-scripts/AutoComplPop.git
+[submodule "home/.vim/bundle_storage/autocorrect.vim"]
+	path = home/.vim/bundle_storage/autocorrect.vim
+	url = https://github.com/vim-scripts/autocorrect.vim.git
+[submodule "home/.vim/bundle_storage/browser-refresh.vim"]
+	path = home/.vim/bundle_storage/browser-refresh.vim
+	url = https://github.com/mkitt/browser-refresh.vim.git
+[submodule "home/.vim/bundle_storage/bufkill.vim"]
+	path = home/.vim/bundle_storage/bufkill.vim
+	url = https://github.com/vim-scripts/bufkill.vim.git
+[submodule "home/.vim/bundle_storage/camelcasemotion"]
+	path = home/.vim/bundle_storage/camelcasemotion
+	url = https://github.com/vim-scripts/camelcasemotion.git
+[submodule "home/.vim/bundle_storage/cocoa.vim"]
+	path = home/.vim/bundle_storage/cocoa.vim
+	url = https://github.com/msanders/cocoa.vim.git
+[submodule "home/.vim/bundle_storage/colorsel.vim"]
+	path = home/.vim/bundle_storage/colorsel.vim
+	url = https://github.com/vim-scripts/colorsel.vim.git
+[submodule "home/.vim/bundle_storage/delimitMate.vim"]
+	path = home/.vim/bundle_storage/delimitMate.vim
+	url = https://github.com/vim-scripts/delimitMate.vim.git
+[submodule "home/.vim/bundle_storage/gist-vim"]
+	path = home/.vim/bundle_storage/gist-vim
+	url = https://github.com/mattn/gist-vim.git
+[submodule "home/.vim/bundle_storage/gundo"]
+	path = home/.vim/bundle_storage/gundo
+	url = https://github.com/vim-scripts/Gundo.git
+[submodule "home/.vim/bundle_storage/html-autoclose.vim"]
+	path = home/.vim/bundle_storage/html-autoclose.vim
+	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
+[submodule "home/.vim/bundle_storage/indexed-search.vim"]
+	path = home/.vim/bundle_storage/indexed-search.vim
+	url = https://github.com/vim-scripts/IndexedSearch.git
+[submodule "home/.vim/bundle_storage/jade.vim"]
+	path = home/.vim/bundle_storage/jade.vim
+	url = https://github.com/vim-scripts/jade.vim.git
+[submodule "home/.vim/bundle_storage/json.vim"]
+	path = home/.vim/bundle_storage/json.vim
+	url = https://github.com/vim-scripts/JSON.vim.git
+[submodule "home/.vim/bundle_storage/lustyjuggler"]
+	path = home/.vim/bundle_storage/lustyjuggler
+	url = https://github.com/vim-scripts/LustyJuggler.git
+[submodule "home/.vim/bundle_storage/markdown-preview.vim"]
+	path = home/.vim/bundle_storage/markdown-preview.vim
+	url = https://github.com/mkitt/markdown-preview.vim.git
+[submodule "home/.vim/bundle_storage/nerdcommenter"]
+	path = home/.vim/bundle_storage/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "home/.vim/bundle_storage/nerdtree"]
+	path = home/.vim/bundle_storage/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "home/.vim/bundle_storage/processing.vim"]
+	path = home/.vim/bundle_storage/processing.vim
+	url = https://github.com/vim-scripts/Processing.git
+[submodule "home/.vim/bundle_storage/rvm.vim"]
+	path = home/.vim/bundle_storage/rvm.vim
+	url = https://github.com/vim-scripts/rvm.vim.git
+[submodule "home/.vim/bundle_storage/snipmate.vim"]
+	path = home/.vim/bundle_storage/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "home/.vim/bundle_storage/specky"]
+	path = home/.vim/bundle_storage/specky
+	url = https://github.com/vim-scripts/Specky.git
+[submodule "home/.vim/bundle_storage/syntastic"]
+	path = home/.vim/bundle_storage/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "home/.vim/bundle_storage/tabular"]
+	path = home/.vim/bundle_storage/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "home/.vim/bundle_storage/taglist.vim"]
+	path = home/.vim/bundle_storage/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "home/.vim/bundle_storage/tailminusf"]
+	path = home/.vim/bundle_storage/tailminusf
+	url = https://github.com/vim-scripts/TailMinusF.git
+[submodule "home/.vim/bundle_storage/vim-cucumber"]
+	path = home/.vim/bundle_storage/vim-cucumber
+	url = https://github.com/tpope/vim-cucumber.git
+[submodule "home/.vim/bundle_storage/vim-fugitive"]
+	path = home/.vim/bundle_storage/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "home/.vim/bundle_storage/vim-haml"]
+	path = home/.vim/bundle_storage/vim-haml
+	url = https://github.com/tpope/vim-haml.git
+[submodule "home/.vim/bundle_storage/vim-javascript"]
+	path = home/.vim/bundle_storage/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "home/.vim/bundle_storage/vim-markdown"]
+	path = home/.vim/bundle_storage/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "home/.vim/bundle_storage/vim-ragtag"]
+	path = home/.vim/bundle_storage/vim-ragtag
+	url = https://github.com/tpope/vim-ragtag.git
+[submodule "home/.vim/bundle_storage/vim-rails"]
+	path = home/.vim/bundle_storage/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "home/.vim/bundle_storage/vim-repeat"]
+	path = home/.vim/bundle_storage/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "home/.vim/bundle_storage/vim-ruby"]
+	path = home/.vim/bundle_storage/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "home/.vim/bundle_storage/vim-speeddating"]
+	path = home/.vim/bundle_storage/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating.git
+[submodule "home/.vim/bundle_storage/vim-supertab"]
+	path = home/.vim/bundle_storage/vim-supertab
+	url = https://github.com/tsaleh/vim-supertab.git
+[submodule "home/.vim/bundle_storage/vim-surround"]
+	path = home/.vim/bundle_storage/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "home/.vim/bundle_storage/vim-unimpaired"]
+	path = home/.vim/bundle_storage/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "home/.vim/bundle_storage/yankring"]
+	path = home/.vim/bundle_storage/yankring
+	url = https://github.com/chrismetcalf/vim-yankring.git
