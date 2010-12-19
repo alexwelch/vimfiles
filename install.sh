@@ -39,7 +39,7 @@ mkdir -p home/.vim/tmp/yankring
 mkdir -p home/.vim/spell
 
 echo "Setting up default vimrc.local..."
-cp .vimrc.local.example home/.vimrc.local
+cp templates/.vimrc.local.example home/.vimrc.local
 
 echo "Initializing submodules..."
 git submodule init
