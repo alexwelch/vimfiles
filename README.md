@@ -175,9 +175,11 @@ These are the additional plug-ins included, but are not required. They are not l
 
 By default all of the snippet files stored within `snippets_storage` are symlinked into the `snippets` directory. These cover most of the languages used at F/. To see the available snippets for a given file type hit `<F5>`, a snippet is triggered using `<control>` `<space>`.
 
-To learn more about [snipmate][snipmate] and creating snippets, type `:h snipmate`
+Certain file types like JavaScript have hundreds of snippets based on the native language and various libraries. This can become unmanageable pretty quickly. The solution is to breakout specific libraries into their own files. For example `javascript-jasmine.snippets` where it needs to be named as `language-library.snippets`. Since snippets are saved in the `snippets_storage` directory, you can be selective about what gets a symbolic link within the `snippets` directory.
 
-*The setup of these may change slightly in the near future.*
+If you are working in a project that includes jQuery, you would only have symbolic links created for `javascript.snippets`, `javascript-jasmine.snippets`, and `javascript-jquery.snippets`. Another project that uses [node.js][node], you could delete the symbolic link to `javascript-jquery.snippets` and add in `javascript-node.snippets` instead. This will give you a more manageable list of snippets to work with. By default, all snippets are included at installation, you'll want to tune these based on your needs.
+
+To learn more about [snipmate][snipmate] and creating snippets, type `:h snipmate`
 
 
 ## Syntax Checkers
@@ -206,7 +208,7 @@ Themes included with this configuration:
 - `cataracts`: Grey background with muted colors
 - `bloodshot`: Similar to colorblind but with muted colors
 
-The color themes have been designed with similarities in the syntax settings. Jumping between multiple languages should be easy on the mind and the eyes. Be adventurous and mix it up once in a while.
+The color themes have been designed with similarities in the syntax settings. Jumping between multiple languages should be easy on the mind and the eyes. Be adventurous and mix it up once in a while.]
 
 **Most themes use the custom [MesloGM font](https://github.com/andreberg/Meslo-Font). Download, install and live the dream.**
 
@@ -265,8 +267,7 @@ This allows you to make changes directly in your submodule, see the effects and 
 
 ## Roadmap and Todos
 
-1. Optional snippets for massive files i.e. JavaScript (no need to have jQuery and Prototype running at the same time)
-- F/ based Cheat Sheet for key bindings set in `.vimrc`
+1. F/ based Cheat Sheet for key bindings set in `.vimrc`
 
 
 ## License and Contributions
