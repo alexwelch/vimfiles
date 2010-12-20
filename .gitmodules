@@ -73,9 +73,6 @@
 [submodule "home/.vim/bundle_storage/processing.vim"]
 	path = home/.vim/bundle_storage/processing.vim
 	url = https://github.com/vim-scripts/Processing.git
-[submodule "home/.vim/bundle_storage/rvm.vim"]
-	path = home/.vim/bundle_storage/rvm.vim
-	url = https://github.com/vim-scripts/rvm.vim.git
 [submodule "home/.vim/bundle_storage/snipmate.vim"]
 	path = home/.vim/bundle_storage/snipmate.vim
 	url = https://github.com/msanders/snipmate.vim.git
@@ -136,3 +133,6 @@
 [submodule "home/.vim/bundle_storage/yankring"]
 	path = home/.vim/bundle_storage/yankring
 	url = https://github.com/chrismetcalf/vim-yankring.git
+[submodule "home/.vim/bundle_storage/rvm.vim"]
+	path = home/.vim/bundle_storage/rvm.vim
+	url = https://github.com/csexton/rvm.vim.git
