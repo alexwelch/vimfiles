@@ -24,7 +24,6 @@ default_bundles=(
   vim-javascript
   vim-markdown
   vim-rails
-  vim-repeat
   vim-ruby
   vim-supertab
   vim-unimpaired

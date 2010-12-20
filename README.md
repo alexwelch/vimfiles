@@ -139,7 +139,6 @@ The [install script][install.sh] created initial symbolic links for the plug-ins
 - [vim-javascript](https://github.com/pangloss/vim-javascript)
 - [vim-markdown](https://github.com/tpope/vim-markdown)
 - [vim-rails](https://github.com/tpope/vim-rails/blob/master/doc/rails.txt)
-- [vim-repeat](https://github.com/tpope/vim-repeat)
 - [vim-ruby](https://github.com/vim-ruby/vim-ruby/tree/master/doc)
 - [vim-supertab](https://github.com/tsaleh/vim-supertab/blob/master/doc/supertab.txt)
 - [vim-unimpaired](https://github.com/tpope/vim-unimpaired/blob/master/doc/unimpaired.txt)
@@ -165,6 +164,7 @@ These are the additional plug-ins included, but are not required. They are not l
 - [tabular](https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt) - Configurable, flexible, intuitive text aligning \*\*
 - [tailminusf](https://github.com/vim-scripts/TailMinusF/blob/master/doc/tailminusf.txt) - Watch the contents of a file in real time
 - [vim-ragtag](https://github.com/tpope/vim-ragtag/blob/master/doc/ragtag.txt) - Ghetto XML/HTML mappings
+- [vim-repeat](https://github.com/tpope/vim-repeat) - Enable repeating commands mapped to "." \*\*
 - [vim-speeddating](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
 - [vim-surround](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt) - Delete, change, and add "surroundings" i.e. parentheses, quotes, and HTML tags \*\*
 
@@ -265,9 +265,7 @@ This allows you to make changes directly in your submodule, see the effects and 
 
 ## Roadmap and Todos
 
-1. Command-T as a submodule?
-- Update the default bundle list
-- Optional snippets for massive libraries i.e. JavaScript
+1. Optional snippets for massive files i.e. JavaScript (no need to have jQuery and Prototype running at the same time)
 - F/ based Cheat Sheet for key bindings set in `.vimrc`
 
 
