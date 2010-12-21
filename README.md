@@ -208,11 +208,16 @@ Themes included with this configuration:
 - `cataracts`: Grey background with muted colors
 - `bloodshot`: Similar to colorblind but with muted colors
 
-The color themes have been designed with similarities in the syntax settings. Jumping between multiple languages should be easy on the mind and the eyes. Be adventurous and mix it up once in a while.]
+In the `extras` directory are Terminal themes to match the Vim color themes.
+
+To use the Terminal themes, install [SIMBL 0.9.7](http://www.culater.net/software/SIMBL/SIMBL.php) and save the [64 Bit Terminal Colors](http://github.com/timmfin/terminalcolours) plugin to:
+
+    ~/Library/Application Support/SIMBL/Plugins/ 
+
+
+The color themes have been designed with similarities in the syntax settings. Jumping between multiple languages should be easy on the mind and the eyes. Be adventurous and mix it up once in a while.
 
 **Most themes use the custom [MesloGM font](https://github.com/andreberg/Meslo-Font). Download, install and live the dream.**
-
-Feel free to add more themes, but try and follow the logic already setup. Bonus points if you deliver a Terminal theme to go along with it.
 
 
 ## Tips
