@@ -1,0 +1,100 @@
+*fcheat.txt* Settings and various information for the F/ configuration
+
+Author: Factory Design Labs
+
+==============================================================================
+F/ Cheat                                *fcheat*
+
+1. Introduction                         |fcheat-intro|
+2. Key Mapping                          |fcheat-key-mappings|
+3. Leader Mapping                       |fcheat-leader-mappings|
+==============================================================================
+1. Introduction                         *fcheat-intro*
+
+Listed below are key and leader mappings setup within the .vimrc file. Check 
+out the installed plug-in help docs as they setup their own bindings as well.
+==============================================================================
+2. Key Mapping                          *fcheat-key-mappings*
+
+Normal Mode:
+  j             => move down
+  k             => move up
+  ;             => Terminal emulator (same as ":")
+  <c-h>         => move to split left
+  <c-l>         => move to split right
+  <c-k>         => move to split top
+  <c-l>         => move to split bottom
+  <tab>         => move between block
+  ,,            => insert a single character
+  ;;            => prepend a single character
+  <space>       => toggle folding
+  zR            => toggle all folds
+  \             => clear search highlight
+  <c-Up>        => bubble selected line up
+  <c-Down>      => bubble selected line down
+
+Insert Mode:
+  jj            => <ESC>
+  jk            => <ESC>
+  <tab>         => supertab forward
+  <s-tab>       => supertab backward
+  <c-space>     => snippets forward
+  <s-c-space>   => snippets backward
+
+Function Keys:
+  <F1>          => toggle full screen mode
+  <F2>          => toggle NerdTree
+  <F3>          => toggle taglist
+  <F4>          => toggle yankring
+  <F5>          => show file type snippets (insert mode only)
+  <F6>          => currently open and available
+  <F7>          => currently open and available
+  <F8>          => currently open and available
+  <F9>          => currently open and available
+  <F10>         => reserved for .vimrc.local
+  <F11>         => reserved for .vimrc.local
+  <F12>         => reserved for .vimrc.local
+==============================================================================
+3. Leader Mapping                       *fcheat-leader-mappings*
+
+The leader key is mapped to comma ",". Always in normal mode.
+
+Global:
+  <leader>a     => ack search
+  <leader>wt    => toggle wrapping in the current buffer
+  <leader>evm   => edit .vimrc
+  <leader>evl   => edit .vimrc.local
+  <leader>CN    => collapse multi-line whitespace to one line
+  <leader>CW    => clean empty whitespace (when [\s] is in status line)
+  <leader>CT    => change from tabs to soft spaces
+  <leader>s     => open current buffer in a new split
+  <leader>ts    => toggle spell check
+  <leader>rt    => reload ctags
+  <leader>t     => Command-T trigger
+  <leader>ft    => flush Command-T
+  <leader>gs    => git status
+
+Markdown, CSS, SASS, SCSS, HTML, HAML, JS:
+  <leader>r     => refresh running browser
+
+Rails:
+  <leader>c     => Edit the specified or current controller
+  <leader>vc    => Edit controller in vertical split
+  <leader>sc    => Edit controller in new split
+  <leader>vf    => Edit the functional test in vertical split
+  <leader>sf    => Edit the functional test in new split
+  <leader>m     => Edit the specified or current model
+  <leader>vm    => Edit model in vertical split
+  <leader>sm    => Edit model in new split
+  <leader>u     => Edit the unit test for the specified name
+  <leader>vu    => Edit unit test in vertical split
+  <leader>su    => Edit unit test in new split
+  <leader>vv    => Edit view in a vertical split
+  <leader>sv    => Edit view in new split
+  <leader>A     => Edit alternate file
+  <leader>av    => Edit alternate file in new vertical split
+  <leader>as    => Edit alternate file in new split
+  <leader>aa    => Edit related file
+====================================================================
+vim:tw=78:ts=8:ft=help:norl:
+

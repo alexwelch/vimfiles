@@ -218,6 +218,11 @@ Feel free to add more themes, but try and follow the logic already setup. Bonus 
 ## Tips
 
 
+### FCheat
+
+Within Vim type `:h fcheat` to view key and leader bindings for the F/ configuration
+
+
 ### Turn Caps Lock Into The Control Key
 
 The control key is in an awkward position and the caps lock key is basically useless. It's right there in the home row, so you might as well put it to good use.
@@ -263,11 +268,6 @@ Then whenever you make changes to the submodule:
     git push push master
 
 This allows you to make changes directly in your submodule, see the effects and push the changes back without maintaining multiple repositories and linking them back and forth. [Defunkt][defunkt] has a good article about [working with submodules][defunkt-subs].
-
-
-## Roadmap and Todos
-
-1. F/ based Cheat Sheet for key bindings set in `.vimrc`
 
 
 ## License and Contributions
