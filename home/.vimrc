@@ -147,9 +147,6 @@ nmap <silent> <leader>wt :set wrap!<cr>
 nmap <leader>evm <C-w><C-v><C-l>:e $MYVIMRC<cr>
 nmap <leader>evl <C-w><C-v><C-l>:e ~/.vimrc.local<cr>
 
-" Clear the search highlight
-map <silent> \ :silent nohlsearch<cr>
-
 " Collapse all multi-line occurrences of whitespace into one line
 map <leader>CN :%s/^\n\+/\r//<cr>:let @/=''<cr>
 
