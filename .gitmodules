@@ -37,9 +37,6 @@
 [submodule "home/.vim/bundle_storage/colorsel.vim"]
 	path = home/.vim/bundle_storage/colorsel.vim
 	url = https://github.com/vim-scripts/colorsel.vim.git
-[submodule "home/.vim/bundle_storage/delimitMate.vim"]
-	path = home/.vim/bundle_storage/delimitMate.vim
-	url = https://github.com/vim-scripts/delimitMate.vim.git
 [submodule "home/.vim/bundle_storage/gist-vim"]
 	path = home/.vim/bundle_storage/gist-vim
 	url = https://github.com/mattn/gist-vim.git
@@ -136,3 +133,6 @@
 [submodule "home/.vim/bundle_storage/rvm.vim"]
 	path = home/.vim/bundle_storage/rvm.vim
 	url = https://github.com/csexton/rvm.vim.git
+[submodule "home/.vim/bundle_storage/delimitMate"]
+	path = home/.vim/bundle_storage/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
