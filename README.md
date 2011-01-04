@@ -120,7 +120,6 @@ The [install script][install.sh] created initial symbolic links for the plug-ins
 - [applescript.vim](https://github.com/vim-scripts/applescript.vim)
 - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
 - [cocoa.vim](https://github.com/msanders/cocoa.vim/blob/master/doc/cocoa.txt)
-- [Command-T](http://www.url.com/)
 - [gist-vim](https://github.com/mattn/gist-vim)
 - [jade.vim](https://github.com/vim-scripts/jade.vim)
 - [json.vim](https://github.com/vim-scripts/JSON.vim)
@@ -155,7 +154,8 @@ These are the additional plug-ins included, but are not required. They are not l
 - [bufkill.vim](https://github.com/vim-scripts/bufkill.vim) - Unload, delete or wipe a buffer
 - [camelcasemotion](https://github.com/vim-scripts/camelcasemotion/blob/master/doc/camelcasemotion.txt) - Motion commands for moving between camelCase or words\_with\_underscores \*\*
 - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
-- [delimitMate.vim](https://github.com/vim-scripts/delimitMate.vim/blob/master/doc/delimitMate.txt) - Automatic closing of quotes, parenthesis, brackets, etc. \*\*
+- [Command-T](http://www.url.com/) - Just like TextMate
+- [delimitMate](https://github.com/Raimondi/delimitMate) - Automatic closing of quotes, parenthesis, brackets, etc. \*\*
 - [gundo](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
 - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
 - [indexed-search.vim](https://github.com/vim-scripts/IndexedSearch) - Adds visual cues when performing searches within a file \*\*

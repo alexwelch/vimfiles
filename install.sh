@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 default_bundles=(
-  Command-T
   ack.vim
   actionscript.vim
   applescript.vim
