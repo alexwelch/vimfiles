@@ -70,8 +70,8 @@ command! -nargs=* Wrap set wrap linebreak nolist
 " -----------------------------------------------------------------------------
 let NERDSpaceDelims=1
 let NERDTreeIgnore=['.DS_Store']
-let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list=1
+" let g:syntastic_enable_signs=1
+" let g:syntastic_auto_loc_list=1
 
 " Popup menu behavior
 set completeopt=longest,menuone
@@ -94,7 +94,7 @@ let g:SuperTabMappingTabLiteral = '<c-tab>'
 " -----------------------------------------------------------------------------
 nnoremap j gj
 nnoremap k gk
-nnoremap ; :
+" nnoremap ; :
 inoremap jj <ESC>
 inoremap jk <Esc>
 
@@ -113,8 +113,8 @@ nmap ,, i_<esc>r
 nmap ;; a_<esc>r
 
 " Folding
-nnoremap <Space> za
-vnoremap <Space> za
+" nnoremap <Space> za
+" vnoremap <Space> za
 
 " Clear the search highlight
 map <silent> \ :silent nohlsearch<cr>
@@ -200,29 +200,29 @@ function! s:setMarkdown()
   call s:setWrapping()
   call s:setBrowserEnv()
   if has('gui_running')
-    au! BufWritePost *.md,*.markdown,*.mkd :MDP
+    " au! BufWritePost *.md,*.markdown,*.mkd :MDP
   endif
 endfunction
 
 " Commands for vim-rails
 function! s:setRails()
-  map <buffer> <leader>c :Rcontroller
-  map <buffer> <leader>vc :RVcontroller
-  map <buffer> <leader>sc :RScontroller
-  map <buffer> <leader>vf :RVfunctional
-  map <buffer> <leader>sf :RSfunctional
-  map <buffer> <leader>m :Rmodel
-  map <buffer> <leader>vm :RVmodel
-  map <buffer> <leader>sm :RSmodel
-  map <buffer> <leader>u :Runittest
-  map <buffer> <leader>vu :RVunittest
-  map <buffer> <leader>su :RSunittest
-  map <buffer> <leader>vv :RVview
-  map <buffer> <leader>sv :RSview
-  map <buffer> <leader>A  :A<cr>
-  map <buffer> <leader>av :AV<cr>
-  map <buffer> <leader>as :AS<cr>
-  map <buffer> <leader>aa :R<cr>
+  " map <buffer> <leader>c :Rcontroller
+  " map <buffer> <leader>vc :RVcontroller
+  " map <buffer> <leader>sc :RScontroller
+  " map <buffer> <leader>vf :RVfunctional
+  " map <buffer> <leader>sf :RSfunctional
+  " map <buffer> <leader>m :Rmodel
+  " map <buffer> <leader>vm :RVmodel
+  " map <buffer> <leader>sm :RSmodel
+  " map <buffer> <leader>u :Runittest
+  " map <buffer> <leader>vu :RVunittest
+  " map <buffer> <leader>su :RSunittest
+  " map <buffer> <leader>vv :RVview
+  " map <buffer> <leader>sv :RSview
+  " map <buffer> <leader>A  :A<cr>
+  " map <buffer> <leader>av :AV<cr>
+  " map <buffer> <leader>as :AS<cr>
+  " map <buffer> <leader>aa :R<cr>
 endfunction
 
 
@@ -233,31 +233,31 @@ if !exists("autocommands_loaded")
   let autocommands_loaded = 1
 
   " Reload .vimrc after it or vimrc.local been saved
-  au! BufWritePost .vimrc source %
-  au! BufWritePost .vimrc.local source ~/.vimrc
+  " au! BufWritePost .vimrc source %
+  " au! BufWritePost .vimrc.local source ~/.vimrc
 
   " File type settings on load
-  au BufRead,BufNewFile *.scss set filetype=scss
-  au BufRead,BufNewFile *.m*down set filetype=markdown
-  au BufRead,BufNewFile *.as set filetype=actionscript
-  au BufRead,BufNewFile *.json set filetype=json
+  " au BufRead,BufNewFile *.scss set filetype=scss
+  " au BufRead,BufNewFile *.m*down set filetype=markdown
+  " au BufRead,BufNewFile *.as set filetype=actionscript
+  " au BufRead,BufNewFile *.json set filetype=json
 
   " Make and Python use real tabs
-  au FileType make set noexpandtab
-  au FileType python set noexpandtab
+  " au FileType make set noexpandtab
+  " au FileType python set noexpandtab
 
   " Call the file type utility methods
-  au BufRead,BufNewFile *.txt call s:setWrapping()
-  au BufRead,BufNewFile *.md,*.markdown,*.mkd call s:setMarkdown()
-  au BufRead,BufNewFile *.css,*.scss call s:setCSS()
-  au BufRead,BufNewFile *.html,*.js,*.haml,*.erb call s:setBrowserEnv()
-  au User Rails call s:setRails()
+  " au BufRead,BufNewFile *.txt call s:setWrapping()
+  " au BufRead,BufNewFile *.md,*.markdown,*.mkd call s:setMarkdown()
+  " au BufRead,BufNewFile *.css,*.scss call s:setCSS()
+  " au BufRead,BufNewFile *.html,*.js,*.haml,*.erb call s:setBrowserEnv()
+  " au User Rails call s:setRails()
 
   " Reload all snippets when creating new ones.
-  au! BufWritePost *.snippets call ReloadAllSnippets()
+  " au! BufWritePost *.snippets call ReloadAllSnippets()
 
   " Enable autosave
-  au FocusLost * :wa
+  " au FocusLost * :wa
 
 endif
 
@@ -283,7 +283,7 @@ if has('gui_running')
     inoremap <F1> <ESC>:set invfullscreen<CR>
     nnoremap <F1> :set invfullscreen<CR>
     vnoremap <F1> :set invfullscreen<CR>
-    map <D-/> <plug>NERDCommenterToggle
+    " map <D-/> <plug>NERDCommenterToggle
     vmap <D-]> >gv
     vmap <D-[> <gv
   end

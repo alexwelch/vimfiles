@@ -64,9 +64,9 @@ set statusline+=%r                                  "read only flag
 set statusline+=%y                                  "filetype
 
 " Syntastic plugin warnings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
 
 " From Fugitive plugin
 set statusline+=%{fugitive#statusline()}
